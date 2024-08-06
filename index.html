@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans+Narrow:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body class="body">
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Waluta posiadana</legend>
+                <p>Wybierz walutę:
+                <p>
+                    <label>
+                        <input class="js-inputPLN" type="radio" name="inputCurrency" value="1"> PLN
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="js-inputUSD" type="radio" name="inputCurrency" value="0.25"> USD
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="js-inputEUR" type="radio" name="inputCurrency" value="0.23"> EURO
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Waluta po wymianie</legend>
+                <p>Wybierz walutę:
+                <p>
+                    <label>
+                        <input class="js-outputPLN" type="radio" name="outputCurrency" value="1"> PLN
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="js-outputUSD" type="radio" name="outputCurrency" value="0.25"> USD
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="js-outputEUR" type="radio" name="outputCurrency" value="0.23"> EURO
+                    </label>
+                </p>
+            </fieldset>
+
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kalkulator wymiany walut</legend>
+                <p>
+                    <label>
+                        <span class="form__lebelText">Podaj ilość:</span><input autofocus class="form__field js-quantity"
+                            type="number" min="0" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__lebelDate">Podaj datę kursu waluty:</span><input class="form__field js-date"
+                            type="date" value="2024-07-05" disabled>
+                    </label>
+                </p>
+
+                <button class="form__button"> Przelicz walutę</button>
+
+
+                <p class="form__paragraph">Ilość otrzymanej waluty: <strong class="js-result">N/A</strong><strong
+                        class="js-resultCurr">N/A</strong>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

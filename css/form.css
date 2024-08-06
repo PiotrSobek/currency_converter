@@ -1,0 +1,91 @@
+.form {
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 1px 2px 5px #0e0b0b59;
+    color:#030303; 
+}
+
+.form__fieldset {
+    background-color:rgba(8, 158, 184, 0.87);
+    border: 1px solid black;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius:10px;
+}
+
+.form__field {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 130px;
+    border-radius: 5px;
+    font-size: 20px;    
+}
+
+.form__legend {
+    font-size: 20px;
+    padding-top: 5px;
+    padding: 10px;
+    background-color: rgb(2, 111, 131);
+    font-weight: 400;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;    
+}
+
+.form__button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    width: 97%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 23px 9px beige;
+    background-color: rgb(44, 29, 185);
+    border-radius: 10px;
+    color: white;    
+}
+        
+.form__button:hover {
+    color:#00ff2a;
+    background-color:rgb(49, 31, 206); ;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    outline: 1px;;
+}
+        
+.form__button:active {
+    color: rgb(255, 0, 242);
+    box-shadow: none;
+}
+
+.form__button--dark {
+    background-color: #2e2e2e;
+    color: #b0eebb;
+}
+
+.form__lebelText {
+    width:  246px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form__lebelDate {
+    width:  246px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.form__paragraph {
+    margin-top: 50px;
+    font-size: 23px;
+    font-weight: 400;
+    text-shadow: 0px 0px 25px;
+    text-align: center;
+    padding: 20px;
+    outline: #2e2e2e;
+    color: gold;
+    background-color: rgb(2, 111, 131);
+}

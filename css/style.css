@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: initial;
+}
+
+.body {
+    background-color: #fff;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(2, 133, 156);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(https://images.theconversation.com/files/481362/original/file-20220826-10690-nguhqg.jpg?ixlib=rb-4.1.0&rect=0%2C197%2C6000%2C3000&q=45&auto=format&w=1356&h=668&fit=crop);
+    background-size: cover;
+}
